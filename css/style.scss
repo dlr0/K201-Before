@@ -1,0 +1,134 @@
+// .btnOne {
+//     margin: 20px;
+//     padding: 20px;
+//     border: 2px solid red;
+//     position: relative;
+//     z-index: 1;
+
+//     // &:hover {
+//     //     &::after {
+//     //         width: 50%;
+//     //         right: 0%;
+//     //     }
+//     //     &::before{
+//     //         width: 50%;
+//     //         left: 0%;
+//     //     }
+//     // }
+
+//     // &::after {
+//     //     content: '';
+//     //     position: absolute;
+//     //     width: 0%;
+//     //     transition: 0.5s ease-in-out;
+//     //     height: 2px;
+//     //     background-color: red;
+//     //     right: 50%;
+//     //     bottom: -10px;
+//     // }
+
+//     // &::before {
+//     //     content: "";
+//     //     position: absolute;
+//     //     width: 0%;
+//     //     height: 2px;
+//     //     background: linear-gradient(#e66465, #9198e5);
+//     //     bottom: -10px ;
+//     //     left: 50%;
+//     //     transition: 0.5S ease-in-out;
+
+//     // }
+//     // ---------------birinci bitti
+// &:hover{
+//     color: white;
+//     &::before{
+//         top: 0%;
+//         height: 100%;
+//     }
+// }
+//     &::before {
+//         content: "";
+//         position: absolute;
+//         width: 100%;
+//         height: 0%;
+//         top: 50%;
+//         transition: 0.3s ease-in;
+//         z-index: -1;
+//         left: 0%;
+//         background-color: blue;
+
+//     }
+
+// }
+// ++++++++++++++++++++++++
+
+// KEYFRAMES START
+// body{
+//     background-color: black;
+// }
+// .box {
+//     width: 200px;
+//     height: 200px;
+//     border-radius: 50%;
+//     background-color: red;
+//     position: absolute;
+//     animation: myAni 2s infinite;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     color: #fff;
+// }
+
+// @keyframes myAni {
+//     // from{
+//     //     top: 0%;
+//     //     left: 0%;
+
+//     // }
+//     // to{
+//     //     top: 20%;
+//     //     left: 20%;
+//     // }
+//     0% {
+//         top: 0%;
+//         left: 0%;
+//         background-color: black;
+//         transform: rotate(0deg);
+//     }
+
+//     25% {
+//         top: 0%;
+//         left: 25%;
+//         background-color: blue;
+//         transform: rotate(90deg);
+
+//     }
+
+//     50% {
+//         top: 25%;
+//         left: 25%;
+//         background-color: yellow;
+//         transform: rotate(180deg);
+
+//     }
+
+//     75% {
+//         top: 25%;
+//         left: 0%;
+//         background-color: pink;
+//         transform: rotate(270deg) scale(2);
+
+//     }
+
+//     100% {
+//         top: 0%;
+//         left: 0%;
+//         background-color: rebeccapurple;
+//         transform: rotate(360deg);
+
+//     }
+// }
+
+
+
+// BOOTSTRAP START
